@@ -1,0 +1,66 @@
+.background{
+  position: relative;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 470px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 55px;
+    right: 330px;
+  }
+  
+  /* Bottom right text */
+  .bottom {
+    position: relative;
+    bottom: 65px;
+    
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+  }
+  .container{
+      
+      font-size: large;
+  }
+  .centered2{
+      position: absolute;
+      padding-top: 20px;
+      bottom: 40%;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .centered3{
+    padding-top: 30px;
+  }
